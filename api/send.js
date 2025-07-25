@@ -6,7 +6,7 @@ export default async function handler(req, res) {
   const { name, phone } = req.body;
 
   const BOT_TOKEN = '7958372133:AAF9v8LZKOJiYf5XkQzES3VgSU4WkVTA5hg';
-  const CHAT_ID = '7841988718';
+  const CHAT_ID = '7958372133';
 
   const text = `🎁 Новая заявка!\n👤 ФИО: ${name}\n📞 Телефон: ${phone}`;
   const url = `https://api.telegram.org/bot${BOT_TOKEN}/sendMessage`;
